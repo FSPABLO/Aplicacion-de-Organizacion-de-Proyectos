@@ -1,10 +1,10 @@
-# 🛠️ Examen 1 - Programación III (2025-02)
+#  Examen 1 - Programación III (2025-02)
 
 Este proyecto es una aplicación de escritorio desarrollada en Java como parte del **Examen 1 del curso Programación III** en la Universidad. Consiste en un sistema de gestión de proyectos y tareas, estructurado con **arquitectura por capas** y el patrón **Modelo-Vista-Controlador (MVC)**.
 
 ---
 
-## 📌 Descripción del sistema
+##  Descripción del sistema
 
 El sistema permite registrar proyectos, asignarles un encargado general, y asociarles tareas con diferentes atributos. Toda la información se almacena y recupera desde archivos **XML** utilizando JAXB.
 
@@ -15,23 +15,23 @@ Está diseñado para una única ventana principal, con dos secciones:
 
 ---
 
-## ✨ Funcionalidades principales
+##  Funcionalidades principales
 
-- 📁 **Carga y almacenamiento automático en XML** (proyectos, tareas, usuarios).
-- 📋 **Listado de proyectos al iniciar**.
-- ➕ **Creación de nuevos proyectos con ID único automático**.
-- 🔽 **Visualización de tareas por proyecto seleccionado**.
-- 🆕 **Creación de tareas con:**
+-  **Carga y almacenamiento automático en XML** (proyectos, tareas, usuarios).
+-  **Listado de proyectos al iniciar**.
+-  **Creación de nuevos proyectos con ID único automático**.
+-  **Visualización de tareas por proyecto seleccionado**.
+-  **Creación de tareas con:**
   - Descripción
   - Fecha de finalización esperada
   - Prioridad: `Alta`, `Media`, `Baja`
   - Estado: `Abierta`, `En progreso`, `En revisión`, `Resuelta`
   - Responsable (usuario desde XML)
-- ✏️ **Edición de tareas**: doble clic abre un formulario emergente para cambiar prioridad y estado.
+-  **Edición de tareas**: doble clic abre un formulario emergente para cambiar prioridad y estado.
 
 ---
 
-## 💾 Estructura técnica
+##  Estructura técnica
 
 - **Lenguaje**: Java (Swing)
 - **Arquitectura**: por capas
@@ -42,7 +42,7 @@ Está diseñado para una única ventana principal, con dos secciones:
 
 ---
 
-## 📸 Interfaz gráfica
+##  Interfaz gráfica
 
 - La interfaz muestra todos los proyectos registrados al iniciar.
 - Al seleccionar un proyecto, se muestra su lista de tareas y el formulario para agregar más.
@@ -50,7 +50,7 @@ Está diseñado para una única ventana principal, con dos secciones:
 
 ---
 
-## 📂 Estructura del proyecto
+##  Estructura del proyecto
 
 ```text
 src/
