@@ -1,4 +1,4 @@
-#  Examen 1 - Programación III (2025-02)
+#  Examen 1 - Programación III 2025
 
 Este proyecto es una aplicación de escritorio desarrollada en Java como parte del **Examen 1 del curso Programación III** en la Universidad. Consiste en un sistema de gestión de proyectos y tareas, estructurado con **arquitectura por capas** y el patrón **Modelo-Vista-Controlador (MVC)**.
 
